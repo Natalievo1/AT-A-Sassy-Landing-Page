@@ -1,0 +1,173 @@
+.btn-secondary {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 3px;
+}
+.btn-secondary:hover {
+  transform: scale(0.8);
+}
+
+.btn-secondary {
+  background-color: #a2d0fc;
+  color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000814;
+  font-family: Trebuchet MS, Arial, sans-serif;
+  line-height: 1;
+}
+
+img {
+  border-radius: 50%;
+  padding: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.box {
+  padding: 0, 1em, 0, 1em;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000814;
+  color: white;
+  padding: 20px;
+}
+nav .banner {
+  font-family: Trebuchet MS, Arial, sans-serif;
+  margin: 0;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+nav ul li:last-child {
+  margin-right: 0;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: #a2d0fc;
+}
+
+.hero-content {
+  background-color: #000814;
+  color: white;
+  padding: 40px 0;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-content .bottom-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-top: 20px;
+  width: 100%;
+  height: 60px;
+  background-color: #FFC300;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.m-4 {
+  margin: 4rem;
+}
+
+.my-4 {
+  margin: 4rem 0;
+}
+
+.p-4 {
+  padding: 4rem;
+}
+
+.py-4 {
+  padding: 4rem 0;
+}
+
+.m-5 {
+  margin: 5rem;
+}
+
+.my-5 {
+  margin: 5rem 0;
+}
+
+.p-5 {
+  padding: 5rem;
+}
+
+.py-5 {
+  padding: 5rem 0;
+}
+
+/*# sourceMappingURL=style.css.map */
